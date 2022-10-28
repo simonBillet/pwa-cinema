@@ -1,0 +1,15 @@
+<div class="div-home-page">
+  <div class="div-search-bar">
+    <input type="text" id="inputSearchFilm" name="inputSearchFilm" #inputSearchFilm/>
+    <button (click)="onClickSearch(inputSearchFilm.value)">Rechercher</button>
+  </div>
+  <div class="div-list-film">
+    <div class="div-card-film" *ngFor="let film of films">
+      <h2>{{ film.title}}</h2>
+      <p>{{ film.dateSortie }}</p>
+      <p>{{ film.note }}</p>
+      <p>{{ film.popularite }}</p>
+      <p>{{ film.description }}</p>
+    </div>
+  </div>
+</div>
