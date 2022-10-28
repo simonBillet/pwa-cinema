@@ -1,7 +1,7 @@
 <div class="div-home-page">
   <div class="div-search-bar">
-    <input type="text" id="inputSearchFilm" name="inputSearchFilm" #inputSearchFilm/>
-    <button (click)="onClickSearch(inputSearchFilm.value)">Rechercher</button>
+    <input class="search-input" type="text" id="inputSearchFilm" name="inputSearchFilm" #inputSearchFilm/>
+    <button class="search-button" (click)="onClickSearch(inputSearchFilm.value)">Rechercher</button>
   </div>
   <div class="div-list-film">
     <div class="div-card-film" *ngFor="let film of films">

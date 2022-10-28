@@ -9,6 +9,24 @@
   padding: 10px 20px;
 }
 
+.search-input {
+  margin: 1em;
+  padding: 1em;
+  width: 50%;
+  border-radius: 15px;
+  border: none;
+}
+
+.search-button {
+  margin: 1em;
+  padding: 1em;
+  width: 10%;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: crimson;
+}
+
 .div-list-film {
   display: flex;
   justify-content: center;
@@ -20,9 +38,9 @@
   background-color: white;
   border: solid 2px;
   border-radius: 10px;
-  max-width: max-content;
-  width: 20%;
-  height: max-content;
+  max-width: 20%;
+  width: max-content;
+
   margin: 10px;
   padding: 10px;
 }
